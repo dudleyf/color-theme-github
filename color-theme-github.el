@@ -4,7 +4,7 @@
   (interactive)
   (color-theme-install
    '(color-theme-github
-     ((background-color . "#eeeeec")
+     ((background-color . "#f8f8ff")
       (background-mode . light)
       (border-color . "black")
       (cursor-color . "#000000")
