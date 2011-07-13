@@ -1,6 +1,40 @@
-(eval-when-compile (require 'color-theme))
+;;; color-theme-github.el --- Github color theme for GNU Emacs.
+
+;; Copyright (C) 2011 Dudley Flanders <dudley@steambone.org>
+
+;; Author: Dudley Flanders
+;; Adapted-By: Yesudeep Mangalapilly
+;; Keywords: github color theme
+;; URL: http://github.com/dudleyf/color-theme-github
+;; Version: 0.0.3
+;; Package-Requires: ((color-theme "6.6.1"))
+
+;; This file is not a part of GNU Emacs.
+
+;;; License:
+
+;; This is free software; you can redistribute it and/or modify it under
+;; the terms of the GNU General Public License as published by the Free
+;; Software Foundation; either version 2, or (at your option) any later
+;; version.
+;;
+;; This is distributed in the hope that it will be useful, but WITHOUT
+;; ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+;; FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+;; for more details.
+;;
+;; You should have received a copy of the GNU General Public License
+;; along with GNU Emacs; see the file COPYING.  If not, write to the
+;; Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+;; MA 02111-1307, USA.
+
+;;; Code:
+
+;; color theme (requires http://www.emacswiki.org/cgi-bin/wiki?ColorTheme )
+(require 'color-theme)
+
 (defun color-theme-github ()
-  "Color theme by Dudley Flanders, created 2008-07-11."
+  "Github color theme for GNU Emacs."
   (interactive)
   (color-theme-install
    '(color-theme-github
@@ -69,4 +103,11 @@
      (region ((t (:background "#bcd5fa"))))
      (show-paren-match ((t (:background "#fff6a9"))))
      (show-paren-mismatch ((t (:background "#dd1144")))))))
-(add-to-list 'color-themes '(color-theme-github  "GitHub" "Dudley Flanders"))
+
+;;(add-to-list 'color-themes '(color-theme-github  "GitHub" "Dudley Flanders"))
+
+(color-theme-github)
+
+(provide 'color-theme-github)
+
+;;; color-theme-github.el ends here
