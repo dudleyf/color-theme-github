@@ -3,6 +3,7 @@
 ;; Copyright (C) 2011 Dudley Flanders <dudley@steambone.org>
 
 ;; Author: Dudley Flanders
+;; Adapted-By: Yesudeep Mangalapilly
 ;; Keywords: github color theme
 ;; URL: http://github.com/dudleyf/color-theme-github
 ;; Version: 0.0.3
