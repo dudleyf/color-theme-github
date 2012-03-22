@@ -102,6 +102,6 @@
    `(show-paren-match ((t (:background "#fff6a9"))))
    `(show-paren-mismatch ((t (:background "#dd1144"))))))
 
-(providetheme 'github)
+(provide-theme 'github)
 
 ;;; color-theme-github.el ends here
