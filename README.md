@@ -1,3 +1,4 @@
+This theme is unmaintained.
 
 A GitHub color-theme for Emacs
 
